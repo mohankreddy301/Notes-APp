@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sono:wght,MONO@200..800,0..1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 4% 10%;
+}
+
+.container h1,
+button {
+  display: flex;
+  align-items: center;
+}
+
+.container h1 img {
+  width: 50px;
+}
+
+.container button img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.container button {
+  background: linear-gradient(#9418fd, #571094);
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  outline: 0;
+  border-radius: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.input-box {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  min-height: 100px;
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.input-box img {
+  width: 20px;
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
