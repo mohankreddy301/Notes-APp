@@ -17,16 +17,6 @@ notesContainer.addEventListener("click", function (event) {
     saveNotesToLocalStorage();
   } 
 
-  else if(event.target.tagName === 'P') {
-    document.querySelectorAll('.input-box').forEach(box => {
-        box.addEventListener('focus', function() {
-            console.log("Key up event detected");
-        });
-      
-        
-    });
-  }
-
 });
 
 createBtn.addEventListener("click", function () {
